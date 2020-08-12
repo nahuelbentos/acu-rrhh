@@ -1,0 +1,58 @@
+.content {
+    margin: 8px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    // background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.mat-video-responsive {
+    width: 85%;
+}
+
+.mat-video-fixed {
+    width: 600px;
+}
+
+.sidenav-container {
+    height: 100vh;
+}
+
+.sidenav {
+    width: 500px;
+}
+
+.mat-drawer-container {
+    background-color: white;
+}
+
+.mat-drawer-side {
+    border-right: none;
+}
+
+.item-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.item-margin {
+    margin: 0 10px;
+}
